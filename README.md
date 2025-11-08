@@ -35,4 +35,4 @@ Anything commited to the hot fix will not be commited to the master, anything co
 
 - We can check our branches by running git branch, any name with a asterik next to it, is the branch you are currently on
 
-- We can use git checkout -b to create a new branch, or switch between branches
+- We can use git checkout -b to create a new branch, or switch between sticks
