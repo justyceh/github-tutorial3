@@ -37,3 +37,24 @@ Anything commited to the hot fix will not be commited to the master, anything co
 
 - We can use git checkout -b to create a new branch, or switch between sticks
 - We can use git checkout -b to create a new branch, or switch between trees
+
+# Now lets explore how to undo git adds in git
+
+If we add some new stuff but we want to get rid of it, we can use the git reset
+Let's say we added new lines to the readme.md and then used git add .
+If we follow up with git reset, it will unstage what we just staged
+We can call git reset by itself to reset everything we added, or git reset readme.md or any file name to target that specific file
+
+
+# Now lets explore how to undo commits
+
+Now in order to undo commits we use this command
+git reset HEAD~1
+This command will unstage and uncommit to before whatever we just commited, aka the previous commit
+
+# Git forking
+
+We use git forking when we want to copy a entire repository, with this we can then do anything we want to do with that repository
+
+It differs from cloning because if we clone from a popular repository if we dont have permissions we cannot push changes to their repo, but if we fork their repo we get a complete copy where we can do whatever we please
+
